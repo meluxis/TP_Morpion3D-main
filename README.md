@@ -2,7 +2,7 @@
 
 On a réalisé un jeu de Morpion, mais en 3D et à potentielement plus que 2 joueurs. Les joueurs jouent un jeton chacun leur tour. On ne peut pas viser le centre initialement, il faut d'abords qu'un joueur fasse un "trou" sur un bords en plaçant un jeton.
 
-![alt text](demo.git)
+![alt text](demo.gif)
 
 
 
