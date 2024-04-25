@@ -10,7 +10,6 @@ public class RotateCamera : MonoBehaviour
     void Update()
     {
         float verticalSpeed = Input.GetAxis("Vertical");
-        Debug.Log(Input.GetAxis("Vertical"));
         if (transform.localEulerAngles.x <= 45 || transform.localEulerAngles.x >=315) {
             transform.Rotate(rotationAxis.normalized * RotationSpeed * Time.deltaTime * -verticalSpeed);
         }else if (transform.localEulerAngles.x > 45 && verticalSpeed < 0 && transform.localEulerAngles.x < 46)
@@ -21,7 +20,6 @@ public class RotateCamera : MonoBehaviour
         {
             transform.Rotate(rotationAxis.normalized * RotationSpeed * Time.deltaTime * -verticalSpeed);
         }
-        Debug.Log(transform.localEulerAngles.x);
     }
 }
 
